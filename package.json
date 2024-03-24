@@ -1,0 +1,22 @@
+{
+  "name": "simple-server-app",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Arthur-Ming/simple-server-app.git",
+  "author": "Arthur Ming <arthurming7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon .\\dist\\index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
